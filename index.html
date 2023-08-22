@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>과제 관리</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calendar">
+    <div class="month">
+      <div class="prev">&#10094;</div>
+      <div class="next">&#10095;</div>
+      <div class="date">
+        <h1></h1>
+      </div>
+    </div>
+    <div class="weekdays">
+      <div>Sun</div>
+      <div>Mon</div>
+      <div>Tue</div>
+      <div>Wed</div>
+      <div>Thu</div>
+      <div>Fri</div>
+      <div>Sat</div>
+    </div>
+    <div class="days"></div>
+  </div>
+  <div class="task-form">
+    <h2>과제 제출</h2>
+    <input type="date" id="taskDate" required>
+    <textarea id="taskDescription" placeholder="과제 내용"></textarea>
+    <button id="submitTask">제출</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
 
